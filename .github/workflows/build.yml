@@ -25,5 +25,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ${{ env.IMAGE }}:latest            ${{ env.IMAGE }}:x86fix-20251029-005619
-
+            ${{ env.IMAGE }}:latest
+            ${{ env.IMAGE }}:x86fix-20251029-005619
